@@ -3,11 +3,19 @@
     "displayName": "ColourDark",
     "description": "VSCode Theme",
     "version": "0.0.1",
+    "publisher": "Ultamatum",
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "colourful",
+        "vibrant",
+        "colorful"
     ],
     "contributes": {
         "themes": [

@@ -3,9 +3,7 @@
 
 ----------
 
-<p align="center">
-  <img alt="Celestial Preview" src="https://github.com/apvarun/celestial-theme/raw/master/Preview.png" style="border-radius: 5px;">
-</p>
+Image to be added
 
 ----------
 
