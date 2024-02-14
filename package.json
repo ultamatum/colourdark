@@ -2,7 +2,7 @@
     "name": "colourdark",
     "displayName": "ColourDark",
     "description": "VSCode Theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Ultamatum",
     "engines": {
         "vscode": "^1.61.0"
