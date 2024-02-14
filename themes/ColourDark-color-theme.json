@@ -10,7 +10,7 @@
 		"textLink.activeForeground": "#E9436D",
 		"textLink.foreground": "#E95378",
 		"button.background": "#2E303E",
-		"dropdown.background": "#1b1c25",
+		"dropdown.background": "#3e4155",
 		"dropdown.listBackground": "#2E303E",
 		"input.background": "#2E303E",
 		"inputOption.activeBorder": "#E9436D80",
@@ -53,7 +53,7 @@
 		"tab.activeBorder": "#E95378",
 		"tab.inactiveBackground": "#0b0c0f",
 		"editor.background": "#0b0c0f",
-		"editorLineNumber.foreground": "#D5D8DA1A",
+		"editorLineNumber.foreground": "#dfe3e61a",
 		"editorLineNumber.activeForeground": "#D5D8DA80",
 		"editorCursor.background": "#0b0c0f",
 		"editorCursor.foreground": "#E95378",
@@ -72,7 +72,7 @@
 		"editorRuler.foreground": "#6C6F934D",
 		"editorCodeLens.foreground": "#6C6F9380",
 		"editorBracketMatch.background": "#6C6F9380",
-		"editorBracketMatch.border": "#6C6F9300",
+		"editorBracketMatch.border": "#676db600",
 		"editorOverviewRuler.border": "#2E303EB3",
 		"editorOverviewRuler.findMatchForeground": "#6C6F93",
 		"editorOverviewRuler.modifiedForeground": "#21BFC280",
@@ -143,7 +143,7 @@
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#BBBBBB4D",
+				"foreground": "#f1e1e14d",
 				"fontStyle": "italic"
 			}
 		},
@@ -227,10 +227,7 @@
 		},
 		{
 			"name": "Variable names",
-			"scope": [
-				"entity.name.variable",
-				"variable"
-			],
+			"scope": ["entity.name.variable", "variable"],
 			"settings": {
 				"foreground": "#E95678E6"
 			}
@@ -330,10 +327,7 @@
 		},
 		{
 			"name": "Strings",
-			"scope": [
-				"string.quoted",
-				"string.template"
-			],
+			"scope": ["string.quoted", "string.template"],
 			"settings": {
 				"foreground": "#fc8a51e6"
 			}
@@ -392,9 +386,7 @@
 		},
 		{
 			"name": "Language variables",
-			"scope": [
-				"variable.language"
-			],
+			"scope": ["variable.language"],
 			"settings": {
 				"foreground": "#FAC29AE6",
 				"fontStyle": "italic"
@@ -476,7 +468,7 @@
 				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#adb8c0"
 			}
 		},
 		{
@@ -492,9 +484,7 @@
 		},
 		{
 			"name": "Markup - Italic",
-			"scope": [
-				"markup.italic"
-			],
+			"scope": ["markup.italic"],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#f07178"
@@ -502,10 +492,7 @@
 		},
 		{
 			"name": "Markup - Bold",
-			"scope": [
-				"markup.bold",
-				"markup.bold string"
-			],
+			"scope": ["markup.bold", "markup.bold string"],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#f07178"
@@ -528,9 +515,7 @@
 		},
 		{
 			"name": "Markup - Underline",
-			"scope": [
-				"markup.underline"
-			],
+			"scope": ["markup.underline"],
 			"settings": {
 				"fontStyle": "underline",
 				"foreground": "#F78C6C"
@@ -544,6 +529,6 @@
 			"settings": {
 				"foreground": "#65737E"
 			}
-		},
+		}
 	]
 }
